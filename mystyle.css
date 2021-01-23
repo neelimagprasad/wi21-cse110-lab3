@@ -1,13 +1,15 @@
-       body {
+        body {
   background-color: lightyellow;
 }
-
+/* the above style changes the background to a light yellow*/
 h1 {
-  color: navy;
+  color: #00357f;
   margin-left: 20px;
+  border-style: double;width: 60%;border-radius: 10px
+  font-size: 90px;
 }
 .intro { 
-  background-color: lightblue;
+  background-color: rgb(103, 164, 197);
 }  
         #firstname {
   background-color: lightgreen;
@@ -41,5 +43,15 @@ a:active {
   color: lightblue;
 }
        div p {
-  background-color: lightsalmon;
+  background-color: hsla(9, 100%, 64%, 0.5);
+}
+       aside {
+  width: 40%;
+  margin-left: 20px;
+  float: right;
+  font-style: italic;
+  background-color: lightblue;  
+  border: 5px solid black;
+  padding: 5px;
+  margin: 20px;
 }
