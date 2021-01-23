@@ -1,4 +1,4 @@
-        body {
+            body {
        font-family: 'Dosis', sans-serif;
   background-color: lightyellow;
 }
@@ -17,6 +17,7 @@ h1 {
   
 }
          h3 {
+       position: static;
   text-decoration: underline;
 }
 .intro { 
@@ -56,7 +57,11 @@ a:active {
        div p {
   background-color: hsla(9, 100%, 64%, 0.5);
 }
+       li {
+  display: inline;
+}
        aside {
+   position: relative;
   width: 25%;
   margin-left: 20px;
   float: right;
@@ -65,4 +70,18 @@ a:active {
   border: 5px solid black;
   padding: 5px;
   margin: 20px;
+}
+       .flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 120px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
 }
