@@ -1,6 +1,11 @@
-            body {
+          body {
        font-family: 'Dosis', sans-serif;
   background-color: lightyellow;
+  @media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
 }
 /* the above style changes the background to a light yellow*/
         
